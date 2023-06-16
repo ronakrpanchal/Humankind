@@ -514,3 +514,50 @@ section header .text-muted {
 .offcanvas.show {
   background-color: var(--dark-color);
 }
+/* Carousel section */
+.bg-img-1{
+  background-image: url(images/post-thumb-1.jpg);
+}
+.bg-img-2{
+  background-image: url(images/post-thumb-2.jpg);
+}
+.bg-img-3{
+  background-image: url(images/post-thumb-3.jpg);
+}
+.carousel-image{
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* .carousel-control-prev,
+.carousel-control-next {
+background: none;
+border: none;
+}
+.carousel-control-prev{
+margin-left: -125px;
+}
+.carousel-control-next{
+margin-right: -125px;
+}
+.carousel-control {
+width: 0%;
+} */
+#latest-stories{
+  background-color: var(--dark-color)
+}
+.news{
+  color: #6c757d;
+}
+.text{
+  font-size: xx-large;
+  margin-bottom: 150px;
+}
+.text:hover{
+  color: #092035;
+  transition: all 0.3s ease-out 0s ;
+}
+.post-title{
+  font-size: larger;
+}
